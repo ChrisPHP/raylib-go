@@ -2,7 +2,7 @@ module rrem
 
 go 1.16
 
-replace github.com/gen2brain/raylib-go/raylib => ../raylib
+replace github.com/ChrisPHP/raylib-go/raylib => ../raylib
 
 require (
 	github.com/blezek/tga v0.0.0-20150626111426-80720cbc1017

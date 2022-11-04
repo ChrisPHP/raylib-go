@@ -1,7 +1,7 @@
 ![logo](https://goo.gl/XlIcXz)
 ## raylib-go
 [![Build Status](https://github.com/gen2brain/raylib-go/actions/workflows/build.yml/badge.svg)](https://github.com/gen2brain/raylib-go/actions)
-[![GoDoc](https://godoc.org/github.com/gen2brain/raylib-go/raylib?status.svg)](https://godoc.org/github.com/gen2brain/raylib-go/raylib)
+[![GoDoc](https://godoc.org/github.com/ChrisPHP/raylib-go/raylib?status.svg)](https://godoc.org/github.com/ChrisPHP/raylib-go/raylib)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gen2brain/raylib-go)](https://goreportcard.com/report/github.com/gen2brain/raylib-go)
 [![Examples](https://img.shields.io/badge/learn%20by-examples-0077b3.svg?style=flat-square)](https://github.com/gen2brain/raylib-go/tree/master/examples)
 
@@ -48,7 +48,7 @@ You can also build binary in [MSYS2](https://msys2.github.io/) shell.
 
 ### Installation
 
-    go get -v -u github.com/gen2brain/raylib-go/raylib
+    go get -v -u github.com/ChrisPHP/raylib-go/raylib
 
 ### Build tags
 
@@ -62,14 +62,14 @@ You can also build binary in [MSYS2](https://msys2.github.io/) shell.
 
 ### Documentation
 
-Documentation on [GoDoc](https://godoc.org/github.com/gen2brain/raylib-go/raylib). Also check raylib [cheatsheet](http://www.raylib.com/cheatsheet/cheatsheet.html).
+Documentation on [GoDoc](https://godoc.org/github.com/ChrisPHP/raylib-go/raylib). Also check raylib [cheatsheet](http://www.raylib.com/cheatsheet/cheatsheet.html).
 
 ### Example
 
 ```go
 package main
 
-import "github.com/gen2brain/raylib-go/raylib"
+import "github.com/ChrisPHP/raylib-go/raylib"
 
 func main() {
 	rl.InitWindow(800, 450, "raylib [core] example - basic window")

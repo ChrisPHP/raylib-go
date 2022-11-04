@@ -3,7 +3,6 @@ package main
 import (
 	"github.com/gen2brain/raylib-go/easings"
 	"github.com/gen2brain/raylib-go/raygui"
-	"github.com/gen2brain/raylib-go/raylib"
 )
 
 func main() {
